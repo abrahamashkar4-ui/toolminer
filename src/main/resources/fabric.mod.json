@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "toolminer",
+  "version": "1.0.0",
+  "name": "Tool Miner",
+  "description": "Auto tool switching and right-click toggle mining.",
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.toolminer.ToolMinerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
